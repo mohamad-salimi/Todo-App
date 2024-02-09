@@ -1,11 +1,8 @@
 import React from "react";
+import HomePage from "../components/template/HomePage";
 
 const Home = () => {
-  return (
-    <div>
-      <h1>Todo App</h1>
-    </div>
-  );
+  return <HomePage />;
 };
 
 export default Home;
