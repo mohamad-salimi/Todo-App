@@ -33,10 +33,9 @@ header button {
   color: #fff;
   font-size: 1.1rem;
   padding: 5px 10px;
-}
-
-header button svg {
-  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5px;
 }
 
 .container--main {
